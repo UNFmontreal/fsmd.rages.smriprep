@@ -2,3 +2,8 @@
 	path = sourcedata/mpitouraged
 	url = ./sourcedata/mpitouraged
 	datalad-id = 33d6cbbb-58fb-48c6-aafd-000ff2778ceb
+[submodule "sourcedata/fsmd"]
+	path = sourcedata/fsmd
+	url = git@github.com:OpenNeuroDatasets/ds004958.git
+	datalad-id = 206b806a-7dd4-433a-8293-b21209a1adb0
+	datalad-url = git@github.com:OpenNeuroDatasets/ds004958.git
