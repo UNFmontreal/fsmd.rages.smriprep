@@ -7,3 +7,8 @@
 	url = git@github.com:OpenNeuroDatasets/ds004958.git
 	datalad-id = 206b806a-7dd4-433a-8293-b21209a1adb0
 	datalad-url = git@github.com:OpenNeuroDatasets/ds004958.git
+[submodule "code/containers"]
+	path = code/containers
+	url = git@github.com:ReproNim/containers.git
+	datalad-id = b02e63c2-62c1-11e9-82b0-52540040489c
+	datalad-url = git@github.com:ReproNim/containers.git
