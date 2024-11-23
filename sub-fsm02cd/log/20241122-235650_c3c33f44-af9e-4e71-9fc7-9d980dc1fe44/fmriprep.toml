@@ -1,0 +1,95 @@
+[environment]
+cpu_count = 64
+exec_env = "singularity"
+free_mem = 227.8
+overcommit_policy = "heuristic"
+overcommit_limit = "50%"
+nipype_version = "1.8.6"
+templateflow_version = "24.2.0"
+version = "24.1.1"
+
+[execution]
+bids_dir = "/scratch/tmp/fs_mp2rage_tests/sourcedata/mpitouraged"
+bids_database_dir = "/tmp/20241122-235650_c3c33f44-af9e-4e71-9fc7-9d980dc1fe44/bids_db"
+bids_description_hash = "63eb428fedc44763880bab3f9403ea6a9a59acdbbfc0910c3cc07d0982db76dc"
+boilerplate_only = false
+sloppy = false
+debug = []
+fmriprep_dir = "/scratch/tmp/fs_mp2rage_tests"
+fs_license_file = "/scratch/tmp/fs_mp2rage_tests/freesurfer.license"
+fs_subjects_dir = "/scratch/tmp/fs_mp2rage_tests/sourcedata/freesurfer_mp2rage"
+layout = "BIDS Layout: ...e_tests/sourcedata/mpitouraged | Subjects: 1 | Sessions: 0 | Runs: 0"
+log_dir = "/scratch/tmp/fs_mp2rage_tests/logs"
+log_level = 25
+low_mem = false
+md_only_boilerplate = false
+notrack = false
+track_carbon = false
+country_code = "CAN"
+output_dir = "/scratch/tmp/fs_mp2rage_tests"
+me_output_echos = false
+aggr_ses_reports = 4
+output_layout = "bids"
+output_spaces = "MNI152NLin2009cAsym:res-native"
+reports_only = false
+run_uuid = "20241122-235650_c3c33f44-af9e-4e71-9fc7-9d980dc1fe44"
+participant_label = [ "fsm02cd",]
+templateflow_home = "/home/fmriprep/.cache/templateflow"
+work_dir = "/tmp"
+write_graph = false
+
+[workflow]
+anat_only = true
+bold2anat_dof = 6
+bold2anat_init = "auto"
+cifti_output = false
+fmap_bspline = false
+force_syn = false
+hires = true
+fs_no_resume = false
+ignore = [ "slicetiming",]
+level = "full"
+longitudinal = false
+run_msmsulc = true
+medial_surface_nan = false
+project_goodvoxels = false
+regressors_all_comps = false
+regressors_dvars_th = 1.5
+regressors_fd_th = 0.5
+run_reconall = true
+skull_strip_fixed_seed = false
+skull_strip_template = "OASIS30ANTs"
+skull_strip_t1w = "force"
+slice_time_ref = 0.5
+spaces = "MNI152NLin2009cAsym:res-native"
+use_syn_sdc = false
+me_t2s_fit_method = "curvefit"
+
+[nipype]
+crashfile_format = "txt"
+get_linked_libs = false
+memory_gb = 128.0
+nprocs = 52
+omp_nthreads = 8
+plugin = "MultiProc"
+remove_unnecessary_outputs = true
+resource_monitor = false
+stop_on_first_crash = false
+
+[seeds]
+master = 14475
+ants = 30280
+numpy = 51767
+
+[execution.derivatives]
+
+[execution.dataset_links]
+raw = "/scratch/tmp/fs_mp2rage_tests/sourcedata/mpitouraged"
+templateflow = "/home/fmriprep/.cache/templateflow"
+
+[nipype.plugin_args]
+maxtasksperchild = 1
+raise_insufficient = false
+
+[execution.bids_filters.t1w]
+acquisition = "mp2rage"
