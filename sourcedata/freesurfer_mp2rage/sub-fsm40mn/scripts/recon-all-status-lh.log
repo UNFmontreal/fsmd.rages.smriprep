@@ -1,0 +1,46 @@
+status file for recon-all
+Sun Nov 24 12:57:20 UTC 2024
+#@# Tessellate lh Sun Nov 24 12:57:21 UTC 2024
+#@# Smooth1 lh Sun Nov 24 12:57:36 UTC 2024
+#@# Inflation1 lh Sun Nov 24 12:57:43 UTC 2024
+#@# QSphere lh Sun Nov 24 12:58:17 UTC 2024
+#@# Fix Topology lh Sun Nov 24 13:01:13 UTC 2024
+#@# Smooth2 lh Sun Nov 24 13:16:56 UTC 2024
+#@# Inflation2 lh Sun Nov 24 13:17:04 UTC 2024
+#@# Curv .H and .K lh Sun Nov 24 13:17:42 UTC 2024
+#@# Sphere lh Sun Nov 24 13:19:24 UTC 2024
+#@# Surf Reg lh Sun Nov 24 13:30:35 UTC 2024
+#@# Jacobian white lh Sun Nov 24 13:39:45 UTC 2024
+#@# AvgCurv lh Sun Nov 24 13:39:47 UTC 2024
+#@# Cortical Parc lh Sun Nov 24 13:39:49 UTC 2024
+#@# white curv lh Sun Nov 24 14:02:17 UTC 2024
+#@# white area lh Sun Nov 24 14:02:23 UTC 2024
+#@# pial curv lh Sun Nov 24 14:02:25 UTC 2024
+#@# pial area lh Sun Nov 24 14:02:30 UTC 2024
+#@# thickness lh Sun Nov 24 14:02:32 UTC 2024
+#@# area and vertex vol lh Sun Nov 24 14:03:46 UTC 2024
+#@# Curvature Stats lh Sun Nov 24 14:03:50 UTC 2024
+#@# Cortical Parc 2 lh Sun Nov 24 14:03:58 UTC 2024
+#@# Cortical Parc 3 lh Sun Nov 24 14:04:30 UTC 2024
+#@# WM/GM Contrast lh Sun Nov 24 14:04:54 UTC 2024
+recon-all -s sub-fsm40mn finished without error at Sun Nov 24 14:05:01 UTC 2024
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Sun Nov 24 19:41:25 UTC 2024
+#@# white curv lh Sun Nov 24 19:41:25 UTC 2024
+#@# white area lh Sun Nov 24 19:41:25 UTC 2024
+#@# pial curv lh Sun Nov 24 19:41:25 UTC 2024
+#@# pial area lh Sun Nov 24 19:41:25 UTC 2024
+#@# thickness lh Sun Nov 24 19:41:25 UTC 2024
+#@# area and vertex vol lh Sun Nov 24 19:41:25 UTC 2024
+#@# Parcellation Stats lh Sun Nov 24 19:41:25 UTC 2024
+#@# Parcellation Stats 2 lh Sun Nov 24 19:42:29 UTC 2024
+#@# Parcellation Stats 3 lh Sun Nov 24 19:43:01 UTC 2024
+#@# BA_exvivo Labels lh Sun Nov 24 19:43:34 UTC 2024
+recon-all -s sub-fsm40mn finished without error at Sun Nov 24 19:50:03 UTC 2024

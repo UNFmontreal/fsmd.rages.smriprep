@@ -1,0 +1,1 @@
+mri_convert /scratch/tmp/fs_mp2rage_tests/sourcedata/freesurfer_mp2rage/sub-fsm42wk/mri/rawavg.mgz /scratch/tmp/fs_mp2rage_tests/sourcedata/freesurfer_mp2rage/sub-fsm42wk/mri/orig.mgz --conform

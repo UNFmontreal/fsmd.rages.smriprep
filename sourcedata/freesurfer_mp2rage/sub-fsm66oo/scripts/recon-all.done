@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT sub-fsm66oo
+START_TIME Sun Nov 24 20:27:36 UTC 2024
+END_TIME Sun Nov 24 20:42:32 UTC 2024
+RUNTIME_HOURS 0.249
+USER bpinsard
+HOST elm.criugm.qc.ca
+PROCESSOR x86_64
+OS Linux
+UNAME Linux elm.criugm.qc.ca 5.15.0-113-generic #123-Ubuntu SMP Mon Jun 10 08:16:17 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+VERSION 7.3.2 (freesurfer-linux-ubuntu22_x86_64-7.3.2-20220804-6354275)
+CMDPATH /opt/freesurfer/bin/recon-all
+CMDARGS -autorecon3 -openmp 8 -subjid sub-fsm66oo -sd /scratch/tmp/fs_mp2rage_tests/sourcedata/freesurfer_mp2rage -nosphere -nosurfreg -nojacobian_white -noavgcurv -nocortparc -nopial -noparcstats -nocortparc2 -noparcstats2 -nocortparc3 -noparcstats3 -nopctsurfcon -nocortribbon -nobalabels

@@ -1,0 +1,9 @@
+Logfile for pctsurfcon
+Sun Nov 24 12:26:57 UTC 2024
+setenv SUBJECTS_DIR /scratch/tmp/fs_mp2rage_tests/sourcedata/freesurfer_mp2rage
+cd /scratch/tmp/fs_mp2rage_tests/sourcedata/freesurfer_mp2rage/sub-fsm24dz/scripts
+/opt/freesurfer/bin/pctsurfcon
+pctsurfcon 7.3.2
+Linux elm.criugm.qc.ca 5.15.0-113-generic #123-Ubuntu SMP Mon Jun 10 08:16:17 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /opt/freesurfer
+Cleaning up
