@@ -16,3 +16,4 @@
 .gitlab-ci.yml annex.largefiles=nothing
 .gitmodules annex.largefiles=nothing
 sub-*/**/*_events.tsv annex.largefiles=anything
+*.gii annex.largefiles=anything
