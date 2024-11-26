@@ -1,0 +1,83 @@
+{
+    "data_type": "fs_pointset",
+    "points": [
+        {
+            "coordinates": {
+                "x": -34.966,
+                "y": -46.024,
+                "z": -3.78129
+            },
+            "index": 0,
+            "value": 1,
+            "count": 0,
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -39.237,
+                "y": 7.17743,
+                "z": -30.4241
+            },
+            "index": 0,
+            "value": 1,
+            "count": 0,
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -16.7755,
+                "y": 30.0236,
+                "z": -22.6741
+            },
+            "index": 0,
+            "value": 1,
+            "count": 0,
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -10.2555,
+                "y": 35.1436,
+                "z": -13.5641
+            },
+            "index": 0,
+            "value": 1,
+            "count": 0,
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -30.0937,
+                "y": 38.4327,
+                "z": 2.25767
+            },
+            "index": 0,
+            "value": 1,
+            "count": 0,
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -25.0821,
+                "y": 43.2864,
+                "z": -13.946
+            },
+            "index": 0,
+            "value": 1,
+            "count": 0,
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -8.58765,
+                "y": 49.5209,
+                "z": -13.612
+            },
+            "index": 0,
+            "value": 1,
+            "count": 0,
+            "legacy_stat": 1
+        }
+    ],
+    "vox2ras": "scanner_ras"
+}

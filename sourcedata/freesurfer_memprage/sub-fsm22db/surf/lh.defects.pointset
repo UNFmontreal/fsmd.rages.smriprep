@@ -1,0 +1,39 @@
+{
+    "data_type": "fs_pointset",
+    "points": [
+        {
+            "coordinates": {
+                "x": -17.3834,
+                "y": -0.831881,
+                "z": 1.70178
+            },
+            "index": 0,
+            "value": 1,
+            "count": 0,
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -26.5501,
+                "y": 34.1681,
+                "z": -6.13155
+            },
+            "index": 0,
+            "value": 1,
+            "count": 0,
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -4.68418,
+                "y": 45.9056,
+                "z": -9.43136
+            },
+            "index": 0,
+            "value": 1,
+            "count": 0,
+            "legacy_stat": 1
+        }
+    ],
+    "vox2ras": "scanner_ras"
+}

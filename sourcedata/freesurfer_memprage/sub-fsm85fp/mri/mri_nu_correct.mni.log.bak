@@ -1,0 +1,24 @@
+/scratch/tmp/fs_mp2rage_tests2/sourcedata/freesurfer_memprage/sub-fsm85fp/mri
+/opt/freesurfer/bin/mri_nu_correct.mni
+--no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50
+nIters 1
+mri_nu_correct.mni 7.3.2
+Linux elm.criugm.qc.ca 5.15.0-113-generic #123-Ubuntu SMP Mon Jun 10 08:16:17 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Sun Nov 24 06:13:01 UTC 2024
+tmpdir is ./tmp.mri_nu_correct.mni.1895296
+cd /scratch/tmp/fs_mp2rage_tests2/sourcedata/freesurfer_memprage/sub-fsm85fp/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.1895296/nu0.mgz --dtype uchar
+AntsN4BiasFieldCorrectionFs done
+mri_convert ./tmp.mri_nu_correct.mni.1895296/nu0.mgz orig_nu.mgz --like orig.mgz --conform
+mri_convert ./tmp.mri_nu_correct.mni.1895296/nu0.mgz orig_nu.mgz --like orig.mgz --conform 
+reading from ./tmp.mri_nu_correct.mni.1895296/nu0.mgz...
+TR=0.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, -3.7835e-10, -4.65661e-10)
+j_ras = (0, 0, -1)
+k_ras = (2.24099e-09, 1, 0)
+INFO: transform src into the like-volume: orig.mgz
+writing to orig_nu.mgz...
+ 
+ 
+Sun Nov 24 06:19:28 UTC 2024
+mri_nu_correct.mni done
