@@ -3,3 +3,6 @@
 [datalad "containers.workbench"]
 	image = code/containers/images/bids/bids-fmriprep--24.1.1.sing
 	cmdexec = code/containers/{img_dspath}/scripts/singularity_cmd exec {img} wb_command {cmd}
+[datalad "containers.freesurfer-anycommand"]
+        image = code/containers/images/bids/bids-freesurfer--7.4.1-unstable.sing
+        cmdexec = {img_dspath}/code/containers/scripts/singularity_cmd exec {img} {cmd}
