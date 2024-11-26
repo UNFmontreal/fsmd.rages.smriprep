@@ -1,0 +1,1 @@
+mri_cc -aseg aseg.auto_noCCseg.mgz -o aseg.auto.mgz -lta /scratch/tmp/fs_mp2rage_tests2/sourcedata/freesurfer_memprage/sub-fsm08un/mri/transforms/cc_up.lta sub-fsm08un

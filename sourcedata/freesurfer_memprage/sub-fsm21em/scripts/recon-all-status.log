@@ -1,0 +1,92 @@
+status file for recon-all
+Sun Nov 24 04:53:03 UTC 2024
+#@# MotionCor Sun Nov 24 04:53:10 UTC 2024
+#@# Talairach Sun Nov 24 04:53:26 UTC 2024
+#@# Talairach Failure Detection Sun Nov 24 05:01:33 UTC 2024
+#@# Nu Intensity Correction Sun Nov 24 05:01:33 UTC 2024
+#@# Intensity Normalization Sun Nov 24 05:09:34 UTC 2024
+recon-all -s sub-fsm21em finished without error at Sun Nov 24 05:13:40 UTC 2024
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Sun Nov 24 08:13:03 UTC 2024
+#@# EM Registration Sun Nov 24 08:13:03 UTC 2024
+recon-all -s sub-fsm21em finished without error at Sun Nov 24 08:20:35 UTC 2024
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Sun Nov 24 08:52:13 UTC 2024
+#@# CA Normalize Sun Nov 24 08:52:13 UTC 2024
+#@# CA Reg Sun Nov 24 08:54:50 UTC 2024
+#@# SubCort Seg Sun Nov 24 10:56:10 UTC 2024
+#@# CC Seg Sun Nov 24 12:12:11 UTC 2024
+#@# Merge ASeg Sun Nov 24 12:14:17 UTC 2024
+#@# Intensity Normalization2 Sun Nov 24 12:14:17 UTC 2024
+#@# Mask BFS Sun Nov 24 12:19:55 UTC 2024
+#@# WM Segmentation Sun Nov 24 12:19:57 UTC 2024
+#@# Fill Sun Nov 24 12:25:45 UTC 2024
+recon-all -s sub-fsm21em finished without error at Sun Nov 24 12:28:24 UTC 2024
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Mon Nov 25 06:47:39 UTC 2024
+#@# white curv lh Mon Nov 25 06:47:39 UTC 2024
+#@# white area lh Mon Nov 25 06:47:39 UTC 2024
+#@# pial curv lh Mon Nov 25 06:47:40 UTC 2024
+#@# pial area lh Mon Nov 25 06:47:40 UTC 2024
+#@# thickness lh Mon Nov 25 06:47:40 UTC 2024
+#@# area and vertex vol lh Mon Nov 25 06:47:40 UTC 2024
+#@# white curv rh Mon Nov 25 06:47:40 UTC 2024
+#@# white area rh Mon Nov 25 06:47:40 UTC 2024
+#@# pial curv rh Mon Nov 25 06:47:40 UTC 2024
+#@# pial area rh Mon Nov 25 06:47:40 UTC 2024
+#@# thickness rh Mon Nov 25 06:47:40 UTC 2024
+#@# area and vertex vol rh Mon Nov 25 06:47:40 UTC 2024
+#@# Cortical ribbon mask Mon Nov 25 06:47:40 UTC 2024
+recon-all -s sub-fsm21em finished without error at Mon Nov 25 07:10:15 UTC 2024
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Mon Nov 25 17:02:54 UTC 2024
+#@# white curv lh Mon Nov 25 17:02:54 UTC 2024
+#@# white area lh Mon Nov 25 17:02:54 UTC 2024
+#@# pial curv lh Mon Nov 25 17:02:54 UTC 2024
+#@# pial area lh Mon Nov 25 17:02:54 UTC 2024
+#@# thickness lh Mon Nov 25 17:02:54 UTC 2024
+#@# area and vertex vol lh Mon Nov 25 17:02:54 UTC 2024
+#@# white curv rh Mon Nov 25 17:02:54 UTC 2024
+#@# white area rh Mon Nov 25 17:02:54 UTC 2024
+#@# pial curv rh Mon Nov 25 17:02:54 UTC 2024
+#@# pial area rh Mon Nov 25 17:02:54 UTC 2024
+#@# thickness rh Mon Nov 25 17:02:54 UTC 2024
+#@# area and vertex vol rh Mon Nov 25 17:02:55 UTC 2024
+#@# Curvature Stats lh Mon Nov 25 17:02:55 UTC 2024
+#@# Curvature Stats rh Mon Nov 25 17:03:01 UTC 2024
+#@# Relabel Hypointensities Mon Nov 25 17:03:07 UTC 2024
+#@# APas-to-ASeg Mon Nov 25 17:03:42 UTC 2024
+#@# AParc-to-ASeg aparc Mon Nov 25 17:04:00 UTC 2024
+#@# AParc-to-ASeg aparc.a2009s Mon Nov 25 17:06:11 UTC 2024
+#@# AParc-to-ASeg aparc.DKTatlas Mon Nov 25 17:08:08 UTC 2024
+#@# WMParc Mon Nov 25 17:09:44 UTC 2024
+#@# ASeg Stats Mon Nov 25 17:15:54 UTC 2024
+recon-all -s sub-fsm21em finished without error at Mon Nov 25 17:17:20 UTC 2024

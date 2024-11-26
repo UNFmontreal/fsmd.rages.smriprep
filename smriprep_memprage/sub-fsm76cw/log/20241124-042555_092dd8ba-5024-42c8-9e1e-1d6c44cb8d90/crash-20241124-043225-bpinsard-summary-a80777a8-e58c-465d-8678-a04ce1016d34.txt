@@ -1,0 +1,58 @@
+Node: fmriprep_24_1_wf.sub_fsm76cw_wf.summary
+Working directory: /scratch/tmp/fs_mp2rage_tests2/work/fmriprep_24_1_wf/sub_fsm76cw_wf/summary
+
+Node inputs:
+
+bold = <undefined>
+nstd_spaces = []
+std_spaces = ['MNI152NLin2009cAsym']
+subject_id = <undefined>
+subjects_dir = <undefined>
+t1w = ['/scratch/tmp/fs_mp2rage_tests2/sourcedata/fsmd/sub-fsm76cw/anat/sub-fsm76cw_acq-mprageVnav_rec-rms_T1w.nii.gz']
+t2w = <undefined>
+
+Traceback (most recent call last):
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/nipype/pipeline/plugins/multiproc.py", line 344, in _send_procs_to_workers
+    self.procs[jobid].run(updatehash=updatehash)
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/nipype/pipeline/engine/nodes.py", line 497, in run
+    self._get_hashval()
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/nipype/pipeline/engine/nodes.py", line 548, in _get_hashval
+    self._get_inputs()
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/nipype/pipeline/engine/nodes.py", line 619, in _get_inputs
+    self.set_input(key, deepcopy(output_value))
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/nipype/pipeline/engine/nodes.py", line 312, in set_input
+    setattr(self.inputs, parameter, deepcopy(val))
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/nipype/interfaces/base/traits_extension.py", line 424, in validate
+    value = super(MultiObject, self).validate(objekt, name, newvalue)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/traits/trait_types.py", line 2699, in validate
+    return TraitListObject(self, object, name, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/traits/trait_list_object.py", line 582, in __init__
+    super().__init__(
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/traits/trait_list_object.py", line 213, in __init__
+    super().__init__(self.item_validator(item) for item in iterable)
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/traits/trait_list_object.py", line 213, in <genexpr>
+    super().__init__(self.item_validator(item) for item in iterable)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/traits/trait_list_object.py", line 865, in _item_validator
+    return trait_validator(object, self.name, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/traits/trait_handlers.py", line 873, in validate
+    return self.slow_validate(object, name, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/traits/trait_handlers.py", line 881, in slow_validate
+    self.error(object, name, value)
+  File "/opt/conda/envs/fmriprep/lib/python3.11/site-packages/traits/base_trait_handler.py", line 74, in error
+    raise TraitError(
+traits.trait_errors.TraitError: Each element of the 'bold' trait of a SubjectSummaryInputSpec instance must be a pathlike object or string representing an existing file or a list of items which are a pathlike object or string representing an existing file, but a value of '/scratch/tmp/fs_mp2rage_tests2/sourcedata/fsmd/sub-fsm76cw/func/sub-fsm76cw_task-rest_bold.nii.gz' <class 'str'> was specified.
+
+Error setting node input:
+Node: summary
+input: bold
+results_file: /scratch/tmp/fs_mp2rage_tests2/work/fmriprep_24_1_wf/sub_fsm76cw_wf/bidssrc/result_bidssrc.pklz
+value: /scratch/tmp/fs_mp2rage_tests2/sourcedata/fsmd/sub-fsm76cw/func/sub-fsm76cw_task-rest_bold.nii.gz
+
+
+When creating this crashfile, the results file corresponding
+to the node could not be found.
