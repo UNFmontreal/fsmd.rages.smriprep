@@ -12,3 +12,8 @@
 	url = git@github.com:ReproNim/containers.git
 	datalad-id = b02e63c2-62c1-11e9-82b0-52540040489c
 	datalad-url = git@github.com:ReproNim/containers.git
+[submodule "sourcedata/tpl-fsLR"]
+	path = sourcedata/tpl-fsLR
+	url = git@github.com:templateflow/tpl-fsLR.git
+	datalad-id = 9781f092-192d-11e9-8fa4-64006a8a730f
+	datalad-url = git@github.com:templateflow/tpl-fsLR.git
